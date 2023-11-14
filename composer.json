@@ -12,12 +12,12 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "illuminate/support": "^8.0",
-        "illuminate/container": "^8.0",
-        "illuminate/database": "^8.0",
-        "illuminate/events": "^8.0",
-        "rybakit/msgpack": "^0.7",
-        "tarantool/client": "^0.9.0"
+        "illuminate/support": "^10.0",
+        "illuminate/container": "^10.0",
+        "illuminate/database": "^10.0",
+        "illuminate/events": "^10.0",
+        "rybakit/msgpack": "^0.9",
+        "tarantool/client": "^0.10.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
@@ -26,11 +26,20 @@
     "license": [
         "BSD-3-Clause"
     ],
-    "homepage": "https://github.com/chocofamilyme/laravel-tarantool",
+    "homepage": "https://github.com/glushkovds/laravel-tarantool",
     "authors": [
         {
             "name": "IT Rahmet App",
             "homepage": "https://rahmetapp.kz/"
+        },
+        {
+            "name": " Vladimir Kharinenkov",
+            "homepage": "https://github.com/vhar"
+        },
+        {
+            "name": "Denis Glushkov",
+            "email": "amkarovec@gmail.com",
+            "homepage": "https://github.com/glushkovds"
         }
     ],
     "autoload": {
