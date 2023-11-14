@@ -23,7 +23,7 @@ class Processor extends BaseProcessor
     {
         /** @var SqlUpdateResult $result */
         $result = $query->getConnection()->insert($sql, $values);
-        $id = $result->getAutoincrementIds()[0];
+        $id = $result->getAutoincrementIds()[0] ?? null;
 
         return is_numeric($id) ? (int) $id : $id;
     }

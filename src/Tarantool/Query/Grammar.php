@@ -107,7 +107,9 @@ class Grammar extends BaseGrammar
     {
         $wrappedColumns = array_map([$this, 'wrap'], $columns);
         array_walk($wrappedColumns, function (&$x) {
-            $x = Str::contains($x, '"') ? $x : '"' . $x . '"';
+            if (in_array($x, $this->reservedWords)) {
+                $x = $this->addQuotes($x);
+            }
         });
 
         return implode(', ', $wrappedColumns);
