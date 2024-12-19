@@ -11,7 +11,7 @@ Laravel  | Package
  5.8.x    | 0.1.9
  6.x      | 0.1.9
  7.x      | 0.1.9
- 8.x - 10.x      | 1.x
+ 8.x - 11.x      | 1.x
 
 
 #### Via Composer

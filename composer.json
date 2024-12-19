@@ -11,11 +11,11 @@
         "orm"
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/support": "^10.0",
-        "illuminate/container": "^10.0",
-        "illuminate/database": "^10.0",
-        "illuminate/events": "^10.0",
+        "php": "^8.2",
+        "illuminate/support": "^11.0",
+        "illuminate/container": "^11.0",
+        "illuminate/database": "^11.0",
+        "illuminate/events": "^11.0",
         "rybakit/msgpack": "^0.9",
         "tarantool/client": "^0.10.0"
     },
@@ -40,6 +40,10 @@
             "name": "Denis Glushkov",
             "email": "amkarovec@gmail.com",
             "homepage": "https://github.com/glushkovds"
+        },
+        {
+            "name": "Andrey Timoshkin",
+            "homepage": "https://github.com/ftinkere"
         }
     ],
     "autoload": {
